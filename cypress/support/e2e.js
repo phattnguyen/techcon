@@ -20,6 +20,7 @@ import './commands';
 // require('./commands')
 require('cypress-xpath');
 require('cypress-grep')();
+require('@shelex/cypress-allure-plugin');
 
 Cypress.on('uncaught:exception', () => {
   return false;

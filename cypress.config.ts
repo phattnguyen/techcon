@@ -1,4 +1,5 @@
 import { defineConfig } from 'cypress'
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 export default defineConfig({
   projectId: 'udwajw',
@@ -37,6 +38,7 @@ export default defineConfig({
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {
+      allureWriter(on, config);
       return require('./cypress/plugins/index.js')(on, config)
     },
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
