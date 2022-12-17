@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 0,
+  "pending": 0,
+  "failures": 1,
+  "start": "2022-12-10T10:20:56.527Z",
+  "duration": 70447,
+  "file": "cypress\\e2e\\demo\\google.search.fail.spec.js"
+}

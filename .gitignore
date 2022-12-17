@@ -1,0 +1,12 @@
+/node_modules
+/.idea/
+*.log
+/cypress/screenshots
+/cypress/videos
+/cypress/reports
+package-lock.json
+/.scannerwork
+/Jenkinsfile_Elsa
+/cypress/integration/features/charts/instructor/instructor.create.assignment.spec.js
+/cypress/integration/features/charts/instructor/instructor.create.assignment.validate.error.spec.js
+/cypress/integration/features/charts/instructor/start.cs.spec.js
